@@ -2,7 +2,6 @@
 *.json text
 *.asset text
 *.settings text
-
 # Các file lớn
 path/to/largefile filter=lfs diff=lfs merge=lfs -text
 C:/Users/namta/Bounce_Tales/Library filter=lfs diff=lfs merge=lfs -text
@@ -10,3 +9,4 @@ Library/*.dll filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 *.dylib filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.8.17/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
